@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 5x5 com Diagonais Destacadas</title>
+    <style>
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            background-color: lightgray;
+        }
+        th, td {
+            border: 2px solid black;
+            text-align: center;
+            padding: 10px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .diagonal {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabela 5x5 com Diagonais Destacadas</h1>
+    <table>
+        <tr>
+            <th>A</th> <th>B</th> <th>C</th> <th>D</th> <th>E</th>
+        </tr>
+        <tr>
+            <td class="diagonal">1</td> <td>2</td> <td>3</td> <td>4</td> <td class="diagonal">5</td>
+        </tr>
+        <tr>
+            <td>6</td> <td class="diagonal">7</td> <td>8</td> <td class="diagonal">9</td> <td>10</td>
+        </tr>
+        <tr>
+            <td>11</td> <td>12</td> <td class="diagonal">13</td> <td>14</td> <td>15</td>
+        </tr>
+        <tr>
+            <td>16</td> <td class="diagonal">17</td> <td>18</td> <td class="diagonal">19</td> <td>20</td>
+        </tr>
+        <tr>
+            <td class="diagonal">21</td> <td>22</td> <td>23</td> <td>24</td> <td class="diagonal">25</td>
+        </tr>
+    </table>
+</body>
+</html>
